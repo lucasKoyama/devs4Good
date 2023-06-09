@@ -4,14 +4,16 @@
 
 .about li, p, h3 {
   margin-bottom: 14px;
+  color: var(--letras-brancas);
+  font-size: 15px;
 }
 
 .about-flex {
-  width: 60%;
+  width: 58%;
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 90px;
+  padding: 50px;
 }
 
 .astronaut-gif {
@@ -42,19 +44,9 @@
 }
 
 .about .about-list {
-  list-style: none;
+  /* list-style: none; */
 }
 
-.about .about-list li {
-  line-height: 30px;
-  color: var(--letras-brancas);
-}
-
-.about .about-list i p {
-  color: var(--letras-brancas);
+.about .about-list i{
   margin-right: 15px;
-}
-
-.about p{
-  color: var(--letras-brancas);
 }

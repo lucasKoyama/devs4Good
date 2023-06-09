@@ -1,12 +1,12 @@
-import Header from './components/Header';
-import Carousel from './components/Carousel';
-import About from './components/About';
-import Especialidades from './components/Especialidades';
-import Team from './components/Team';
-import Projetos from './components/Projetos';
-import Contato from './components/Contato';
-import Footer from './components/Footer';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import Header from './sections/Header';
+import Carousel from './sections/Carousel';
+import About from './sections/About';
+import Especialidades from './sections/Especialidades';
+import Team from './sections/Team';
+import Projetos from './sections/Projetos';
+import Contato from './sections/Contato';
+import Footer from './sections/Footer';
+import '@fortawesome/react-fontawesome'
 
 function App() {
   return (
