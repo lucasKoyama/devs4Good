@@ -4,7 +4,7 @@ import '../../styles/cards/DefaultCard.css';
 function ProjetoCard({photo}) {
   return (
     <div className="card">
-      <img src={photo} alt="foto do projeto" />
+      <img className="photo" src={photo} alt="foto do projeto" />
     </div>
   );
 }

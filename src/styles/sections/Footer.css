@@ -1,9 +1,21 @@
 .footer {
   background-color: var(--bg-claro);
   height: 40px;
-  text-align: center;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: var(--letras-brancas);
+  font-size: 14px;
 }
 
-a{
-  color: red;
+.footer a {
+  color: var(--letras-brancas);
+  font-weight: 600;
+  transition: all ease 0.5s;
+}
+
+.footer a:hover {
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 2px #7925f8;
 }
