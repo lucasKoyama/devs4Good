@@ -1,5 +1,5 @@
 import astronautGif from '../images/astronaut.gif'
-import '../styles/About.css';
+import '../styles/sections/About.css';
 
 function About() {
   return (

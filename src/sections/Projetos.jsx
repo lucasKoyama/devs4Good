@@ -1,7 +1,10 @@
+import Heading3 from "../components/htmlElements/Heading3";
+import '../styles/sections/Projetos.css';
+
 function Projetos() {
   return (
     <section className="projetos">
-      projetos
+      <Heading3 title="Conheça nossos projetos"/>
     </section>
   );
 }

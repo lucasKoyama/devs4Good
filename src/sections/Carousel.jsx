@@ -1,6 +1,5 @@
-import React from 'react'
 import banner2 from '../images/banner2.webp'
-import '../styles/Carousel.css';
+import '../styles/sections/Carousel.css';
 
 function Carousel() {
   return (
