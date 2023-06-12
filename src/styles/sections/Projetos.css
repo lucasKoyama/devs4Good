@@ -1,3 +1,10 @@
 .projetos {
   background-color: var(--bg-claro);
 }
+
+.projetos .cards {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}

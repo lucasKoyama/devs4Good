@@ -5,3 +5,7 @@
   text-align: center;
   color: var(--letras-brancas);
 }
+
+.card * {
+  margin-bottom: 20px;
+}

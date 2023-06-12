@@ -1,0 +1,23 @@
+.team .card {
+  width: 200px;
+  height: 285px;
+  background-color: #505050;
+  padding: 15px;
+  border-radius: 0.25rem;
+  box-shadow: -4px 4px 8px rgba(17, 0, 17, 0.4);
+}
+
+.team .card .photo {
+  width: 80%;
+  box-shadow: -4px 4px 8px rgba(17, 0, 17, 0.4);
+}
+
+.team .card .openDialogBtn {
+  padding: 2px;
+  width: 70%;
+  height: 12%;
+  border-radius: 3px;
+  background-color: #505050;
+  box-shadow: -4px 4px 8px rgba(17, 0, 17, 0.4);
+  margin-bottom: 0;
+}
