@@ -1,9 +1,10 @@
-import React from 'react'
+import Heading3 from "../components/htmlElements/Heading3";
+import '../styles/sections/Team.css';
 
 function Team() {
   return (
     <section className="team">
-      team
+      <Heading3 title="Nosso time"/>
     </section>
   );
 }

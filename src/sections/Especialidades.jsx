@@ -1,8 +1,18 @@
+import Heading3 from "../components/htmlElements/Heading3";
+import EspecialidadeCard from "../components/cards/EspecialidadeCard";
+import '../styles/sections/Especialidades.css';
 
 function Especialidades() {
   return (
     <section className="especialidades">
-      especialidades
+      <Heading3 title="Nossas especialidades"/>
+      <section className="cards">
+        <EspecialidadeCard
+          icon="fa-solid fa-mobile-screen-button"
+          title="Responsividade"
+          text="Todos os websites serão responsivos para celular, tablet e computador."
+        />
+      </section>
     </section>
   );
 }

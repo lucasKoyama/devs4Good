@@ -2,7 +2,7 @@
   background-color: var(--bg-escuro);
 }
 
-.about li, p, h3 {
+.about li, .about p, .about h3 {
   margin-bottom: 14px;
   color: var(--letras-brancas);
   font-size: 15px;
@@ -44,7 +44,7 @@
 }
 
 .about .about-list {
-  /* list-style: none; */
+  list-style: none;
 }
 
 .about .about-list i{

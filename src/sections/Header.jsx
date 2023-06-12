@@ -1,5 +1,5 @@
 import Headroom from 'react-headroom';
-import '../styles/Header.css';
+import '../styles/sections/Header.css';
 import logo from '../images/header-astronaut.webp'
 
 
