@@ -20,4 +20,6 @@
   background-color: #505050;
   box-shadow: -4px 4px 8px rgba(17, 0, 17, 0.4);
   margin-bottom: 0;
+  color: var(--letras-brancas);
+  outline: none;
 }

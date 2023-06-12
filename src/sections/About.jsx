@@ -3,7 +3,7 @@ import '../styles/sections/About.css';
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className='about-flex'>
         <img className="astronaut-gif" src={ astronautGif } alt="astronaut image" />
         <div className="text">

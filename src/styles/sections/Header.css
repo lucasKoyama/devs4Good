@@ -4,6 +4,7 @@
   padding: 5px;
   z-index: 1;
   background-color: var(--bg-escuro);
+  display: flex;
 }
 
 .headroom-wrapper {
@@ -11,6 +12,49 @@
   position: relative;
 }
 
+.logo-container {
+  margin-left: 10px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
 .logo {
-  width: 70px;
+  width: 75px;
+}
+
+.logo-title {
+  color: var(--letras-brancas);
+  font-size: 20px;
+}
+
+.logo-title span {
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 2px #7925f8;
+}
+
+nav {
+  width: 100%;
+}
+
+.nav-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: end;
+}
+
+.nav-link {
+  margin-right: 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--letras-brancas);
+  transition: all ease 0.5s;
+}
+
+.nav-link:hover {
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 2px #7925f8;
 }
