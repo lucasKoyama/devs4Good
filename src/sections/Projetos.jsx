@@ -1,10 +1,14 @@
 import Heading3 from "../components/htmlElements/Heading3";
+import ProjetoCard from "../components/cards/ProjetoCard";
 import '../styles/sections/Projetos.css';
 
 function Projetos() {
   return (
     <section className="projetos">
       <Heading3 title="Conheça nossos projetos"/>
+      <sectiom className="cards">
+        <ProjetoCard />
+      </sectiom>
     </section>
   );
 }

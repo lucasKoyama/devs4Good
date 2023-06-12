@@ -1,12 +1,13 @@
 import PropTypes from 'prop-types';
 import '../../styles/cards/DefaultCard.css';
+import '../../styles/cards/EspecialidadeCard.css'
 
 function EspecialidadeCard({icon, title, text}) {
   return (
-    <div className="card" style={ { width: '315px' } }>
-      <i className={icon}></i>
-      <h4>{title}</h4>
-      <p>{text}</p>
+    <div className="card">
+      <i className={`icon ${icon}`}></i>
+      <h4 className='title'>{title}</h4>
+      <p className='text'>{text}</p>
     </div>
   );
 }
