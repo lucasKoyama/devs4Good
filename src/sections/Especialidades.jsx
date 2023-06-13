@@ -9,13 +9,14 @@ function Especialidades() {
       <Heading3 title="Nossas especialidades"/>
       <section className="cards">
         {especialidades.map((card, index) => {
-          const {icon, title, text } = card;
+          const {icon, title, text, animation } = card;
           return (
             <EspecialidadeCard
               key={index}
               icon={icon}
               title={title}
               text={text}
+              animation={animation}
             />
           );
         })}

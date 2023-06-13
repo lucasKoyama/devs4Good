@@ -25,8 +25,8 @@ function Carousel() {
         <SwiperSlide>
           <img src={ banner2 } />
           <div className="text">
-            <h2 className="title">Uma empresa sem fins lucrativos</h2>
-            <p className="description">Criamos websites e soluções para ONGs e projetos sociais.</p>
+            <h2 className="title animate__animated animate__fadeInDown">Uma empresa sem fins lucrativos</h2>
+            <p className="description animate__animated animate__fadeInDown">Criamos websites e soluções para ONGs e projetos sociais.</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>

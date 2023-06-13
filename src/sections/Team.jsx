@@ -9,7 +9,7 @@ function Team() {
       <Heading3 title="Nosso time"/>
       <section className="cards">
         {members.map((card, index) => {
-          const { photo, name, dialogBtnText, dialogText } = card;
+          const { photo, name, dialogBtnText, dialogText, animation } = card;
           return (
             <TeamMemberCard
               key={ index }
@@ -17,6 +17,7 @@ function Team() {
               name={ name }
               dialogBtnText={ dialogBtnText }
               dialogText={ dialogText }
+              animation={ animation }
             />
           )
         })}

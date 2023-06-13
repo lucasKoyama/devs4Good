@@ -5,8 +5,7 @@
 .team .card {
   width: 200px;
   height: 285px;
-  margin: 20px;
-  margin-bottom: 40px;
+  margin-inline: 20px;
   background-color: #505050;
   padding: 15px;
   border-radius: 0.25rem;

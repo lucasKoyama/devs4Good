@@ -4,6 +4,7 @@
   align-items: center;
   text-align: center;
   color: var(--letras-brancas);
+  margin-bottom: 40px;
 }
 
 .card * {
