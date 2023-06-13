@@ -1,6 +1,11 @@
+.team .cards {
+  flex-wrap: wrap;
+}
+
 .team .card {
   width: 200px;
   height: 285px;
+  margin-inline: 20px;
   background-color: #505050;
   padding: 15px;
   border-radius: 0.25rem;

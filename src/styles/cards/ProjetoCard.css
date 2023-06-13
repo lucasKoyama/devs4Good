@@ -1,4 +1,5 @@
 .projetos .card .photo {
-  width: 348px;
-  margin: 15px;
+  max-width: 348px;
+  width: 70vw;
+  margin-inline: 20px;
 }

@@ -8,21 +8,37 @@
   --tema-principal: #9c5dfa;
   --letras-brancas: rgb(255, 255, 255);
   --bg-claro: rgb(60, 60, 60);
-  --bg-escuro: rgb(35, 35, 35);
+  --bg-escuro: rgb(40, 40, 40);
+}
+
+html, body {
+  position: relative;
+  height: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 html {
-  scroll-behavior: smooth;
   background-color: var(--bg-color);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
-  color: #646cff;
   text-decoration: none;
 }
 
-a:hover {
-  color: #535bf2;
+::-webkit-scrollbar {
+  background-color: rgb(55, 55, 55);
+  height: 15px;
+  width: 10px;
 }
 
+::-webkit-scrollbar-thumb {
+  background-color: #ebebeb;
+  border-radius: 5px;
+}
+
+.animate__animated {
+  opacity: 0;
+  transition: all ease 0.5s !important;
+}

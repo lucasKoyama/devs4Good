@@ -4,7 +4,7 @@ import '../styles/sections/About.css';
 function About() {
   return (
     <section className="about" id="about">
-      <div className='about-flex'>
+      <div className="about-flex animate__animated animate__fadeIn">
         <img className="astronaut-gif" src={ astronautGif } alt="astronaut image" />
         <div className="text">
           <h3 className="title">SOBRE A DEVS<span className="forgood at">4GOOD</span></h3>

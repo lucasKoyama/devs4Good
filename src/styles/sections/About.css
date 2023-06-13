@@ -5,21 +5,21 @@
 .about li, .about p, .about h3 {
   margin-bottom: 14px;
   color: var(--letras-brancas);
-  font-size: 15px;
+  font-size: 0.95em;
 }
 
 .about-flex {
-  width: 58%;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   margin: auto;
-  padding: 50px;
 }
 
 .astronaut-gif {
-  width: 420px;
-  transition: 1s;
-  margin-right: 80px;
+  width: 95vw;
+  max-width: 420px;
+  transition: all ease 1s;
+  margin: auto;
 }
 
 .astronaut-gif:hover {
@@ -29,7 +29,8 @@
 
 .about .text {
   margin: auto;
-  width: 50%;
+  padding: 10px;
+  min-width: 285px;
   text-align: justify;
 }
 
@@ -40,7 +41,7 @@
 
 .forgood {
   color: var(--tema-principal);
-  text-shadow: 0.5px 1px 2px #7925f8;
+  text-shadow: 0.5px 1px 4px #7925f8;
 }
 
 .about .about-list {
@@ -49,4 +50,19 @@
 
 .about .about-list i{
   margin-right: 15px;
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 4px #7925f8;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-flex {
+    flex-direction: row;
+    width: 58%;
+    min-width: 1000px;
+    padding: 50px;
+  }
+
+  .astronaut-gif {
+    margin-right: 80px;
+  }
 }

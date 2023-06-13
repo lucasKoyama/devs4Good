@@ -4,22 +4,25 @@ import vitorImg from "../../images/vitor.webp";
 
 const members = [
   {
-    photo: carlosImg,
-    name: "Carlos Tonini",
-    dialogBtnText: "CEO",
-    dialogText: "test",
-  },
-  {
     photo: joseImg,
     name: "José Alves",
     dialogBtnText: "Co-founder",
     dialogText: "test",
+    animation: "animate__fadeInLeft"
+  },
+  {
+    photo: carlosImg,
+    name: "Carlos Tonini",
+    dialogBtnText: "CEO",
+    dialogText: "test",
+    animation: "animate__fadeInDown"
   },
   {
     photo: vitorImg,
     name: "Vitor Nogueira",
     dialogBtnText: "Co-founder",
     dialogText: "test",
+    animation: "animate__fadeInRight"
   },
 ];
 

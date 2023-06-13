@@ -7,6 +7,14 @@
   display: flex;
 }
 
+.mobile-menu {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  color: white;
+}
+
 .headroom-wrapper {
   z-index: 999;
   position: relative;
@@ -39,11 +47,27 @@ nav {
 
 .nav-list {
   width: 100%;
-  height: 100%;
   display: flex;
+  flex-direction: column;
   list-style: none;
-  align-items: center;
   justify-content: end;
+  align-items: start;
+  background-color: var(--bg-escuro);
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  transform: translateY(-110%);
+  transition: all ease 0.5s;
+  padding-bottom: 10px;
+}
+
+.nav-list li {
+  padding: 5px 20px;
+}
+
+.show-menu {
+  transform: translateY(45%);
+  transition: all ease 0.5s;
 }
 
 .nav-link {
@@ -56,5 +80,27 @@ nav {
 
 .nav-link:hover {
   color: var(--tema-principal);
-  text-shadow: 0.5px 1px 2px #7925f8;
+  text-shadow: 0.5px 1px 4px #7925f8;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-menu {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    transform: translateY(0);
+    height: 90%;
+    width: 30%;
+    align-items: center;
+    z-index: 1;
+    right: 0;
+    left: unset;
+    padding-bottom: 0;
+  }
+
+  .nav-list li {
+    padding: 0;
+  }
 }
