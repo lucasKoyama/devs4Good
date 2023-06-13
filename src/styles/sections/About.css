@@ -9,7 +9,7 @@
 }
 
 .about-flex {
-  width: 58%;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   margin: auto;
@@ -17,9 +17,10 @@
 }
 
 .astronaut-gif {
-  width: 420px;
-  transition: 1s;
-  margin-right: 80px;
+  width: 50vw;
+  max-width: 420px;
+  transition: all ease 1s;
+  margin: auto;
 }
 
 .astronaut-gif:hover {
@@ -30,6 +31,7 @@
 .about .text {
   margin: auto;
   width: 50%;
+  min-width: 405px;
   text-align: justify;
 }
 
@@ -40,7 +42,7 @@
 
 .forgood {
   color: var(--tema-principal);
-  text-shadow: 0.5px 1px 2px #7925f8;
+  text-shadow: 0.5px 1px 4px #7925f8;
 }
 
 .about .about-list {
@@ -49,4 +51,18 @@
 
 .about .about-list i{
   margin-right: 15px;
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 4px #7925f8;
+}
+
+@media screen and (min-width: 1024px) {
+  .about-flex {
+    flex-direction: row;
+    width: 58%;
+    min-width: 1000px;
+  }
+
+  .astronaut-gif {
+    margin-right: 80px;
+  }
 }

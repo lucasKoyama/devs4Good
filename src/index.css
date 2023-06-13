@@ -11,6 +11,11 @@
   --bg-escuro: rgb(35, 35, 35);
 }
 
+html, body {
+  position: relative;
+  height: 100%;
+}
+
 html {
   scroll-behavior: smooth;
   background-color: var(--bg-color);
@@ -18,11 +23,16 @@ html {
 }
 
 a {
-  color: #646cff;
   text-decoration: none;
 }
 
-a:hover {
-  color: #535bf2;
+::-webkit-scrollbar {
+  background-color: rgb(55, 55, 55);
+  height: 15px;
+  width: 10px;
 }
 
+::-webkit-scrollbar-thumb {
+  background-color: #ebebeb;
+  border-radius: 5px;
+}

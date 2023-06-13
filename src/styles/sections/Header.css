@@ -56,5 +56,5 @@ nav {
 
 .nav-link:hover {
   color: var(--tema-principal);
-  text-shadow: 0.5px 1px 2px #7925f8;
+  text-shadow: 0.5px 1px 4px #7925f8;
 }
