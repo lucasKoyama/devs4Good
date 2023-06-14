@@ -17,7 +17,8 @@ function Header() {
       <header className="header">
         <div className="logo-container">
           <img className="logo" src={logo} alt="logo" href="#"/>
-          <h5 className="logo-title">Devs<span>4Good</span></h5>
+          {/* <h5 className="logo-title">Devs<span>4Good</span></h5> */}
+          <h5 className="he logo-title">Devs<span className="at">4Good</span></h5>
         </div>
         <div className="mobile-menu">
           <Hamburger

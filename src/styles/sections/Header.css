@@ -41,6 +41,22 @@
   text-shadow: 0.5px 1px 2px #7925f8;
 }
 
+.he {
+  /* display: inline-block;
+  position: relative;
+  font-family: Arial, sans-serif; */
+}
+
+.he .at {
+  display: inline-block;
+  transition: transform 1s ease;
+  transform-origin: left;
+}
+
+.he:hover .at {
+  transform: translateX(100%);
+}
+
 nav {
   width: 100%;
 }
