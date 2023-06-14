@@ -6,7 +6,7 @@ import Team from './sections/Team';
 import Projetos from './sections/Projetos';
 import Contato from './sections/Contato';
 import Footer from './sections/Footer';
-import AnimateOnScroll from '../node_modules/react-global-animate-on-scroll/AnimateOnScroll.jsx';
+import AnimateOnScroll from 'react-global-animate-on-scroll';
 import '@fortawesome/fontawesome-free/css/all.css';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
           <Contato />
       </main>
       <Footer />
-      <AnimateOnScroll />
+      <AnimateOnScroll animateOnce/>
     </>
   )
 }
