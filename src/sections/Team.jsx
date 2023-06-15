@@ -1,6 +1,6 @@
 import Heading3 from "../components/htmlElements/Heading3";
 import TeamMemberCard from "../components/cards/TeamMemberCard";
-import members from "../components/cards/membersData";
+import members from "../components/cards/Data/membersData";
 import '../styles/sections/Team.css';
 
 function Team() {

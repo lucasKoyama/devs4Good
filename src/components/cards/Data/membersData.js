@@ -1,9 +1,9 @@
-import carlosImg from "../../images/Carlos2.webp";
-import joseImg from "../../images/jose.webp";
-import vitorImg from "../../images/vitor.webp";
-import marlonImg from '../../images/marlon.png'
-import lucasImg from '../../images/Lucas.jpg'
-import gustavoImg from '../../images/gustavo.png'
+import carlosImg from "../../../images/Carlos2.webp";
+import joseImg from "../../../images/jose.webp";
+import vitorImg from "../../../images/vitor.webp";
+import marlonImg from '../../../images/marlon.png'
+import lucasImg from '../../../images/Lucas.jpg'
+import gustavoImg from '../../../images/gustavo.png'
 
 const members = [
   {

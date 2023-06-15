@@ -1,6 +1,6 @@
 import Heading3 from "../components/htmlElements/Heading3";
 import EspecialidadeCard from "../components/cards/EspecialidadeCard";
-import especialidades from "../components/cards/especialidadesData";
+import especialidades from "../components/cards/Data/especialidadesData";
 import '../styles/sections/Especialidades.css';
 
 function Especialidades() {
