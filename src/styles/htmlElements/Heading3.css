@@ -6,4 +6,12 @@
   font-weight: 500;
   line-height: 1.2;
   padding: 30px;
+  transition: 1s;  
+  margin-bottom: 40px;
+}
+
+.heading3:hover{
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 2px #7925f8;
+  transition: 1s;
 }

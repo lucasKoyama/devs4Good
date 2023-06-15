@@ -13,7 +13,13 @@
 .form-section img {
   width: 250px;
   margin: auto;
+  transition: transform 15s ease;
+  /* margin-right: 30px; */
 }
+.form-section img:hover {
+  transform: rotate(360deg);
+}
+
 
 .form-section form {
   display: flex;
@@ -36,22 +42,30 @@
 
 .form-section form input:focus,
 .form-section form textarea:focus {
-  outline: #1E3D5E 3px solid;
+  outline: rgba(186, 20, 186, 0.275) 3px solid;
 }
 
 .form-section form .submit-btn {
-  width: 120px;
-  height: 50px;
-  cursor: pointer;
-  background-color: rgb(141, 10, 141);;
-  padding: 10px 20px;
+  padding: 6px 20px;
   border-radius: 30px;
-  border: 3px solid transparent;
-  transition: all ease 0.5s;
-  font-weight: 800;
-  font-size: 20px;
-  color: var(--letras-brancas);
-  margin: auto;
+  font-weight: 600;
+  background-color: var(--tema-principal);
+  cursor: pointer;
+  margin-top: 25px;
+  transition: 1s;
+  font-size: 15px;
+  background: linear-gradient(to bottom, #7925f8, #4a0f9b);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  color: whitesmoke;
+}
+.form-section form .submit-btn:hover {
+
+
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 1);
+  transition: 1s;
+
+  color: whitesmoke;
+
 }
 
 .form-section input::placeholder,
@@ -69,5 +83,9 @@
   .form-section form input,
   .form-section form textarea {
     width: 29vw;
+  }
+
+  .form-section form .submit-btn {
+    margin-inline: auto;
   }
 }

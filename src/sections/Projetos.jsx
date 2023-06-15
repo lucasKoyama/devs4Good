@@ -9,9 +9,9 @@ function Projetos() {
     <section className="projetos" id="portfolio">
       <Heading3 title="Conheça nossos projetos"/>
       <section className="cards">
-        <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInUp"}/>
-        <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInUp"}/>
-        <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInUp"}/>
+        <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInRight"}/>
+        <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInRight"}/>
+        <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInRight"}/>
       </section>
     </section>
   );

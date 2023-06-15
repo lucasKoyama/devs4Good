@@ -49,9 +49,27 @@
 }
 
 .about .about-list i{
-  margin-right: 15px;
+  margin-right: 1px;
   color: var(--tema-principal);
   text-shadow: 0.5px 1px 4px #7925f8;
+  transition: transform 3s ease;
+}
+
+.about .about-list i:hover{
+  margin-right: 1px;
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 4px #7925f8;
+  transform: rotate(360deg);
+}
+
+.form-section img {
+  width: 250px;
+  margin: auto;
+  transition: transform 15s ease;
+  /* margin-right: 30px; */
+}
+.form-section img:hover {
+  transform: rotate(360deg);
 }
 
 @media screen and (min-width: 1024px) {

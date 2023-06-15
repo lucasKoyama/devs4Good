@@ -22,6 +22,8 @@ function Header() {
         </div>
         <div className="mobile-menu">
           <Hamburger
+            size={22}
+            rounded
             onToggle={toggled => showMenu(toggled)}
           />
         </div>
