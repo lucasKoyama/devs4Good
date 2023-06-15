@@ -18,35 +18,35 @@ const members = [
     name: "Carlos Tonini",
     dialogBtnText: "CEO",
     dialogText: "test",
-    animation: "animate__fadeInDown"
+    animation: "animate__fadeInLeft"
   },
   {
     photo: vitorImg,
     name: "Vitor Nogueira",
     dialogBtnText: "Co-founder",
     dialogText: "test",
-    animation: "animate__fadeInRight"
+    animation: "animate__fadeInLeft"
   },
   {
     photo: marlonImg,
     name: "Marlon Couto",
     dialogBtnText: "Co-founder",
     dialogText: "Sou um apaixonado por tecnologia, com o propósito de criar soluções que reduzam o tempo gasto em tarefas complexas. Minhas experiências anteriores me ensinaram habilidades valiosas em administração do tempo, organização, gestão financeira e pessoal. Sou um solucionador de problemas adaptável e motivado em busca de desafios maiores.",
-    animation: "animate__fadeInRight"
+    animation: "animate__fadeInLeft"
   },
   {
     photo: lucasImg,
     name: "Lucas Koyama",
-    dialogBtnText: "Co-founder",
+    dialogBtnText: "Front-End",
     dialogText: "sss",
-    animation: "animate__fadeInRight"
+    animation: "animate__fadeInLeft"
   },
   {
     photo: gustavoImg,
     name: "Gustavo Aguiar",
     dialogBtnText: "Co-founder",
     dialogText: "test",
-    animation: "animate__fadeInRight"
+    animation: "animate__fadeInLeft"
   },
 ];
 

@@ -9,12 +9,20 @@ function TeamMemberCard({photo, name, dialogBtnText, dialogText, animation}) {
   }
   return (
     <div className={`card animate__animated ${ animation }`}>
-      <img className="photo" src={ photo } alt="foto do membro" />
-      <h4>{ name }</h4>
-      <button className="openDialogBtn" onClick={ () => openModal() }>{dialogBtnText}</button>
+      <h4 className='name'>{ name }</h4>
+      <button 
+      onClick={ () => openModal() }
+       
+      className='button-img'><img 
+     
+      className="photo" src={ photo } alt="foto do membro" />
+      </button>
+      <button className="openDialogBtn" >{dialogBtnText}</button>
       <dialog id={ name }>
         <div className="dialog-container">
-          <button onClick={ () => document.getElementById(name).close() }>
+          <button
+          onClick={ () => document.getElementById(name).close() }
+          >
             <i className="fa-solid fa-xmark" />
           </button>
           <section>

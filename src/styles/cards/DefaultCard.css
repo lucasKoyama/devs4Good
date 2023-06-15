@@ -5,6 +5,7 @@
   text-align: center;
   color: var(--letras-brancas);
   margin-bottom: 40px;
+  transition-delay: 0s;
 }
 
 .card * {

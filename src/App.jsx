@@ -22,7 +22,7 @@ function App() {
           <Contato />
       </main>
       <Footer />
-      <AnimateOnScroll animateOnce/>
+      <AnimateOnScroll />
     </>
   )
 }

@@ -9,6 +9,7 @@
   --letras-brancas: rgb(255, 255, 255);
   --bg-claro: rgb(60, 60, 60);
   --bg-escuro: rgb(40, 40, 40);
+  --animate-delay: none;
 }
 
 html, body {
@@ -40,5 +41,4 @@ a {
 
 .animate__animated {
   opacity: 0;
-  transition: all ease 0.5s !important;
 }
