@@ -3,9 +3,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper";
-import banner1 from '../images/banner1.webp'
-import banner2 from '../images/banner2.webp'
-import banner3 from '../images/banner3.webp'
+import banner1 from '../images/carouselImgs/banner1.webp'
+import banner2 from '../images/carouselImgs/banner2.webp'
+import banner3 from '../images/carouselImgs/banner3.webp'
 import '../styles/sections/Carousel.css';
 
 function Carousel() {
