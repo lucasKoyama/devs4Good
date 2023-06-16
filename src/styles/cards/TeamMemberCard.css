@@ -55,16 +55,21 @@
 }
 
 .team .card dialog {
-  max-width: 500px;
+  max-width: 800px;
   margin: auto;
   padding: 35px;
-  text-align: justify;
   border-radius: 15px;
-  background-color: #ebebeb;
-  box-shadow: 0px 0px 2px #ebebeb;
+  color: white;
+  background-color: var(--bg-claro);
+  box-shadow: 0px 0px 2px #8f16be;
   outline: none;
   overflow: hidden;
   border: none;
+}
+
+.team .card dialog h2 {
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 2px #7925f8;
 }
 
 .team .card dialog::backdrop {
@@ -92,6 +97,18 @@
   color: purple;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
+
+.modalIco{
+  width: 40px;
+  margin: 10px;
+}
+
+.modalImg {
+  width: 400px;
+  }
+
+
+
 
 @media screen and (min-width: 1024px) {
   .team .card .photo {

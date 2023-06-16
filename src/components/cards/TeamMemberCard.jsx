@@ -1,8 +1,11 @@
 import PropTypes from 'prop-types';
 import '../../styles/cards/DefaultCard.css';
 import '../../styles/cards/TeamMemberCard.css';
+import githubIco from '../../images/github.ico';
+import linkedinIco from '../../images/linkedin.ico';
+import portfolioIco from '../../images/portfolio.ico';
 
-function TeamMemberCard({photo, name, dialogBtnText, dialogText, animation}) {
+function TeamMemberCard({photo,photoModal, name, dialogBtnText, dialogText, animation}) {
   const openModal = () => {
     const dialog = document.getElementById(name)
     dialog.showModal();
@@ -28,7 +31,12 @@ function TeamMemberCard({photo, name, dialogBtnText, dialogText, animation}) {
           <section>
             <h2>{name}</h2>
             <p>{ dialogText }</p>
-          </section>
+            <img className='modalImg' src={photoModal} alt="" />
+            <p>Você pode me encontrar através do meu portfólio pessoal, linkedin ou github!</p>
+            <img className='modalIco'src={portfolioIco} alt="" />         
+            <img className='modalIco'src={linkedinIco} alt="" /> 
+            <img className='modalIco' src={githubIco} alt="" />
+           </section>
         </div>
       </dialog>
     </div>

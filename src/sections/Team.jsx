@@ -23,6 +23,7 @@ function Team() {
               <TeamMemberCard
                 key={ members[num].name }
                 photo={ members[num].photo }
+                photoModal = {members[num].photoModal}
                 name={ members[num].name }
                 dialogBtnText={ members[num].dialogBtnText }
                 dialogText={ members[num].dialogText }
@@ -31,6 +32,7 @@ function Team() {
               <TeamMemberCard
                 key={ members[odd[index]].name }
                 photo={ members[odd[index]].photo }
+                photoModal = {members[odd[index]].photoModal}
                 name={ members[odd[index]].name }
                 dialogBtnText={ members[odd[index]].dialogBtnText }
                 dialogText={ members[odd[index]].dialogText }
