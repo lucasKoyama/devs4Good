@@ -87,7 +87,8 @@
   position: absolute;
   right: 0;
   top: 0;
-  color: purple;
+  color: var(--tema-principal);
+  text-shadow: 0.5px 1px 2px #7925f8;
   font-size: 25px;
   cursor: pointer;
   transition: all 1s;
@@ -95,7 +96,6 @@
 
 .team .card dialog .fa-xmark:hover {
   transform: scale(1.35);
-  color: purple;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 

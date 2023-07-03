@@ -28,6 +28,9 @@ function Team() {
                 dialogBtnText={ members[num].dialogBtnText }
                 dialogText={ members[num].dialogText }
                 animation={ members[num].animation }
+                linkedinLink= { members[num].linkedinLink }
+                portfolioLink = { members[num].portfolioLink }
+                gitHubLink = { members[num].gitHubLink }
               />
               <TeamMemberCard
                 key={ members[odd[index]].name }
@@ -37,7 +40,9 @@ function Team() {
                 dialogBtnText={ members[odd[index]].dialogBtnText }
                 dialogText={ members[odd[index]].dialogText }
                 animation={ members[odd[index]].animation }
-              />
+                linkedinLink= { members[odd[index]].linkedinLink }
+                portfolioLink = { members[odd[index]].portfolioLink }
+                gitHubLink = { members[odd[index]].gitHubLink }                       />
             </div>
             )
           )

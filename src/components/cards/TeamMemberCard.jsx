@@ -5,7 +5,7 @@ import githubIco from '../../images/github.ico';
 import linkedinIco from '../../images/linkedin.ico';
 import portfolioIco from '../../images/portfolio.ico';
 
-function TeamMemberCard({photo,photoModal, name, dialogBtnText, dialogText, animation}) {
+function TeamMemberCard({photo,photoModal, name, dialogBtnText, dialogText, animation, gitHubLink, linkedinLink, portfolioLink }) {
   const openModal = () => {
     const dialog = document.getElementById(name)
     dialog.showModal();
@@ -33,9 +33,9 @@ function TeamMemberCard({photo,photoModal, name, dialogBtnText, dialogText, anim
             <p>{ dialogText }</p>
             <img className='modalImg' src={photoModal} alt="" />
             <p>Você pode me encontrar através do meu portfólio pessoal, linkedin ou github!</p>
-            <img className='modalIco'src={portfolioIco} alt="" />         
-            <img className='modalIco'src={linkedinIco} alt="" /> 
-            <img className='modalIco' src={githubIco} alt="" />
+            <a href={portfolioLink} target="_blank"><img className='modalIco'src={portfolioIco} alt="" /></a>        
+            <a href={linkedinLink} target="_blank"><img className='modalIco'src={linkedinIco} alt="" /> </a>
+            <a href={gitHubLink} target="_blank"><img className='modalIco' src={githubIco} alt="" /></a>
            </section>
         </div>
       </dialog>
