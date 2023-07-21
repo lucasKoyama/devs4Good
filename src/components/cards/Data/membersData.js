@@ -5,6 +5,8 @@ import lucasImg from '../../../images/membros/lucas.webp';
 import alanImg from '../../../images/membros/alan.webp';
 import gustavoImg from '../../../images/membros/gustavo.webp';
 import carlosImgModal from '../../../images/modalCarlos.webp';
+import brenoImg from '../../../images/membros/breno.jpeg';
+import rogerioImg from '../../../images/membros/camarano.jpeg';
 
 const members = [
   {
@@ -66,6 +68,28 @@ const members = [
     photo: gustavoImg,
     photoModal: gustavoImg,
     name: "Gustavo Aguiar",
+    dialogBtnText: "Front-End",
+    dialogText: "Sou um apaixonado por tecnologia, com o propósito de criar soluções que reduzam o tempo gasto em tarefas complexas. Minhas experiências anteriores me ensinaram habilidades valiosas em administração do tempo, organização, gestão financeira e pessoal. Sou um solucionador de problemas adaptável e motivado em busca de desafios maiores.",
+    animation: "animate__fadeInLeft",
+    gitHubLink: 'https://github.com/carloshtbraga',
+    linkedinLink: 'https://www.linkedin.com/in/carloshtbraga/',
+    portfolioLink: 'https://portf-lio-react-red.vercel.app/'
+  },
+  {
+    photo: rogerioImg,
+    photoModal: rogerioImg,
+    name: "Rogério Camarano",
+    dialogBtnText: "Front-End Design",
+    dialogText: "Sou apaixonado por tecnologia e por pessoas. Sei que são as pessoas que fazem a diferença no final do dia de qualquer ambiente de trabalho, projeto ou contrato. Consigo unir o melhor dos dois mundos: - A técnica para desenvolver aplicações funcionais usando html, css, JS, TS, React, Node.JS, MySql, Sequelize, express e afins    - A gestão das pessoas envolvidas no meu ambiente de de trabalho promovendo a empatia e a colaboração.",
+    animation: "animate__fadeInLeft",
+    gitHubLink: 'https://github.com/rcamarano',
+    linkedinLink: 'https://www.linkedin.com/in/rogerio-camarano-dev/',
+    portfolioLink: 'https://www.camarano.net'
+  },
+  {
+    photo: brenoImg,
+    photoModal: brenoImg,
+    name: "Breno Pellegrino",
     dialogBtnText: "Front-End",
     dialogText: "Sou um apaixonado por tecnologia, com o propósito de criar soluções que reduzam o tempo gasto em tarefas complexas. Minhas experiências anteriores me ensinaram habilidades valiosas em administração do tempo, organização, gestão financeira e pessoal. Sou um solucionador de problemas adaptável e motivado em busca de desafios maiores.",
     animation: "animate__fadeInLeft",

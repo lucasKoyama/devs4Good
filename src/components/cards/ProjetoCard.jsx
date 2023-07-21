@@ -16,3 +16,4 @@ ProjetoCard.propTypes = ({
 }).isRequired;
 
 export default ProjetoCard;
+

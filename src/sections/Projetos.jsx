@@ -11,7 +11,7 @@ function Projetos() {
       <Heading3 title="Conheça nossos projetos"/>
       <section className="cards">
         
-        <a href="https://github.com/Devs4GoodOficial/python4Good" target="blank_"><ProjetoCard className="photo" photo={python4good} animation={"animate__fadeInRight"} title='Python Exercises'/></a>
+<ProjetoCard className="photo" photo={python4good} animation={"animate__fadeInRight"} title='Python Exercises'/>
 
         <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInRight"}/>
 
