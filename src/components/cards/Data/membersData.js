@@ -7,6 +7,7 @@ import gustavoImg from '../../../images/membros/gustavo.webp';
 import carlosImgModal from '../../../images/modalCarlos.webp';
 import brenoImg from '../../../images/membros/breno.jpeg';
 import rogerioImg from '../../../images/membros/camarano.jpeg';
+import rogerioModal from '../../../images/camaranomodal.jpeg';
 
 const members = [
   {
@@ -77,7 +78,7 @@ const members = [
   },
   {
     photo: rogerioImg,
-    photoModal: rogerioImg,
+    photoModal: rogerioModal,
     name: "Rogério Camarano",
     dialogBtnText: "Front-End Design",
     dialogText: "Sou apaixonado por tecnologia e por pessoas. Sei que são as pessoas que fazem a diferença no final do dia de qualquer ambiente de trabalho, projeto ou contrato. Consigo unir o melhor dos dois mundos: - A técnica para desenvolver aplicações funcionais usando html, css, JS, TS, React, Node.JS, MySql, Sequelize, express e afins    - A gestão das pessoas envolvidas no meu ambiente de de trabalho promovendo a empatia e a colaboração.",
