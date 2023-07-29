@@ -5,6 +5,7 @@ import python4good from '../images/pythonProject.png'
 import apadrinhe from '../images/apadrinhe.png'
 import "../styles/cards/ProjetoCard.css";
 import "../styles/sections/Projetos.css";
+import dog from '../images/Dog.png'
 
 function Projetos() {
   return (
@@ -16,6 +17,10 @@ function Projetos() {
 
         <ProjetoCard className="photo" photo={apadrinhe} animation={"animate__fadeInRight"} title='Apadrinhe um Sorriso' link='https://apadrinhe.vercel.app/'/>
 
+        <ProjetoCard className="photo" photo={dog} animation={"animate__fadeInRight"} title='ONG Dogs' link='https://templatedogs-vite.vercel.app/'/>
+
+        <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInRight"}/>
+        <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInRight"}/>
         <ProjetoCard className="photo" photo={projectImg} animation={"animate__fadeInRight"}/>
       </section>
     </section>
