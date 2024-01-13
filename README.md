@@ -1,4 +1,4 @@
-# Overview - <project_name>
+# Overview - Devs4Good
 <img width="960" alt="image" src="https://github.com/lucasKoyama/devs4Good/assets/121680414/a0b8438c-f352-4565-bcf1-2e07b4af7d1f">
 <!--
 Think of the STAR + Hero Journey description for the entire README:
@@ -12,10 +12,9 @@ Think of the STAR + Hero Journey description for the entire README:
   <summary>Summary</summary>
 
   1. [Overview]()
-  2. [Features & Challenges solved]()
-  3. [Tools used]()
-  4. [Results]()
-  5. [Authors]()
+  2. [Features & Challenges solved](https://github.com/lucasKoyama/devs4Good/tree/main?tab=readme-ov-file#-features--challenges-solved)
+  3. [Tools used](https://github.com/lucasKoyama/devs4Good/tree/main?tab=readme-ov-file#%EF%B8%8F-tools-used)
+  4. [Authors](https://github.com/lucasKoyama/devs4Good/tree/main?tab=readme-ov-file#%EF%B8%8F-tools-used)
 </details>
 <p>
   A brief description of the project.
@@ -27,7 +26,22 @@ Think of the STAR + Hero Journey description for the entire README:
 
 ## 📌 Features & Challenges solved
 <!-- TASKS / CHALLENGES -->
+<details>
+  <summary>Responsive page</summary>
+The page was developed responsively, adapting to different screen sizes and devices. This ensures a consistent and pleasant experience for users, regardless of the device they are using.
+</details>
 
+<details>
+  <summary>Animations on page scroll</summary>
+
+I added subtle animations to page elements as the user scrolls through the content. These animations help guide the user's attention and make the experience more dynamic and engaging.
+</details>
+
+<details>
+  <summary>Images carousel</summary>
+
+I implemented an image carousel that displays some company info. Users can navigate through images using the carousel controls.
+</details>
 
 ## 🛠️ Tools used
 <!-- ACTION -->
