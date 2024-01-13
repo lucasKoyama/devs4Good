@@ -11,13 +11,13 @@ Think of the STAR + Hero Journey description for the entire README:
 <details>
   <summary>Summary</summary>
 
-  1. [Overview]()
+  1. [Overview](https://github.com/lucasKoyama/devs4Good/blob/main/README.md#overview---devs4good)
   2. [Features & Challenges solved](https://github.com/lucasKoyama/devs4Good/tree/main?tab=readme-ov-file#-features--challenges-solved)
   3. [Tools used](https://github.com/lucasKoyama/devs4Good/tree/main?tab=readme-ov-file#%EF%B8%8F-tools-used)
   4. [Authors](https://github.com/lucasKoyama/devs4Good/tree/main?tab=readme-ov-file#%EF%B8%8F-tools-used)
 </details>
 <p>
-  A brief description of the project.
+  Institutional website for Devs4Good. A developers team working for a Non-governmental organization to provide digital services voluntarily
 </p>
 
 <a href="https://www.devs4good.com.br/">
