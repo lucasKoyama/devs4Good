@@ -1,5 +1,5 @@
 # Overview - Devs4Good
-<img width="960" alt="image" src="https://github.com/lucasKoyama/devs4Good/assets/121680414/a0b8438c-f352-4565-bcf1-2e07b4af7d1f">
+<img width="100%" alt="image" src="https://github.com/lucasKoyama/devs4Good/assets/121680414/a7b5bff3-a45a-4238-9ee9-d228686f5502">
 <!--
 Think of the STAR + Hero Journey description for the entire README:
 1. Situation: begin with the situation, what it aims to solve, and what the common problem is.
